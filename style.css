@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #f9f9f9, #f8c8d8); /* Fundal alb cu roz pastelat */
+    color: #333333; /* Textul rămâne închis pentru a se citi ușor */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background: linear-gradient(135deg, #f8c8d8, #f9b9d8); /* Gradient roz pentru titlu */
+    color: #fff;
+    padding: 30px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ușoară umbră pentru un efect modern */
+    border-bottom: 3px solid #f9b9d8; /* Linie sub titlu */
+}
+
+h1:hover {
+    background: linear-gradient(135deg, #f9b9d8, #f8c8d8);
+    cursor: pointer;
+}
+
+.produse {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px;
+    background: #ffffff; /* Fundal alb pentru zona de produse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Umbre subtile pentru un efect modern */
+}
+
+.produs {
+    background: #f9f9f9; /* Gri deschis pentru produsele individuale */
+    padding: 20px;
+    width: 240px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #f8c8d8; /* Margine roz pentru fiecare produs */
+}
+
+.produs:hover {
+    transform: translateY(-8px); /* Efect de ridicare la hover */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.produs img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.produs h3 {
+    color: #f8c8d8; /* Titluri roz pentru produse */
+    margin: 10px 0;
+}
+
+.produs p {
+    color: #333333;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #f8c8d8; /* Negru pentru buton */
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f9b9d8; /* Roz mai intens la hover */
+}
+
+footer {
+    background-color: #f8c8d8; /* Roz pastelat pentru footer */
+    color: #fff;
+    padding: 20px;
+    font-size: 1.1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
